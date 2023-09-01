@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/aho_background_white">
+
+        <Button
+            android:id="@+id/buttonEntrance"
+            android:layout_width="344dp"
+            android:layout_height="54dp"
+            android:background="@color/aho_button_white"
+            android:onClick="onClickLogIn"
+            android:text="@string/register_log_in"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edPasswordRegister" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="126dp"
+            android:radius="8dp"
+            android:text="@string/log_in"
+            android:textAlignment="center"
+            android:textColor="@color/aho_background"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/edPasswordRegister"
+            android:layout_width="344dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="456dp"
+            android:background="@color/aho_background_blue"
+            android:ems="10"
+            android:hint="@string/password_entrance"
+            android:inputType="textPassword"
+            android:paddingLeft="22sp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.522"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/edLoginRegister"
+            android:layout_width="344dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="376dp"
+            android:background="@color/aho_background_blue"
+            android:ems="10"
+            android:hint="@string/login_entrance"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="22sp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.507"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/edSurnameRegister"
+            android:layout_width="344dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="292dp"
+            android:background="@color/aho_background_blue"
+            android:ems="10"
+            android:hint="@string/surname_log_in"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="22sp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.522"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/edNameRegister"
+            android:layout_width="344dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="208dp"
+            android:background="@color/aho_background_blue"
+            android:ems="10"
+            android:hint="@string/name_log_in"
+            android:inputType="textPersonName"
+            android:paddingLeft="22sp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>

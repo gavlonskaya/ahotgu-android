@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/aho_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Less4"
+        tools:targetApi="31">
+        <activity
+            android:name=".Logo_Activity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Less4.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.less4.Entrance_Activity"/>
+        <activity
+         android:name="com.example.less4.MainActivity"
+           android:theme="@style/Theme.Less4.NoActionBar"/>
+        <activity android:name="com.example.less4.settings.Login_Activity" />
+        <activity android:name="com.example.less4.Log_In_Activity" />
+        <activity android:name="com.example.less4.Photo_Problem_Activity" />
+        <activity
+            android:name="com.example.less4.Categories_Problem_Activity"
+            android:theme="@style/Theme.Less4.NoActionBar"/>
+        <activity
+            android:name="com.example.less4.Letter_Problem_Activity"
+            android:theme="@style/Theme.Less4.NoActionBar"/>
+        <activity
+            android:name="com.example.less4.Address_Problem_Activity"
+            android:theme="@style/Theme.Less4.NoActionBar"/>
+        <activity
+            android:name="com.example.less4.My_Problems_Activity"
+            android:theme="@style/Theme.Less4.NoActionBar"
+            />
+        <activity
+            android:name="com.example.less4.Address_Problem_Street_Activity"
+            android:theme="@style/Theme.Less4.NoActionBar"/>
+        <activity android:name="com.example.less4.Exit_Activity" />
+
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        
+        <uses-library android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDpZZg8kEM9zqEL6yXlqV8wC0oogY-PbPM" />
+
+    </application>
+
+
+</manifest>

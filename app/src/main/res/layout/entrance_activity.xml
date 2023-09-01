@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/aho_background"
+    app:circularflow_defaultRadius="8dp">
+
+
+    <Button
+        android:id="@+id/buttonEntranceRegister"
+        android:layout_width="344dp"
+        android:layout_height="54dp"
+        android:background="@color/aho_background_white"
+        android:bottomLeftRadius="50dp"
+        android:onClick="onClickLogIn"
+        android:text="@string/register_log_in"
+        android:textColor="@color/aho_background"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.772" />
+
+    <Button
+        android:id="@+id/buttonEntrance"
+        android:layout_width="344dp"
+        android:layout_height="54dp"
+        android:background="@color/aho_button_white"
+        android:bottomLeftRadius="50dp"
+        android:onClick="onClickEntrance"
+        android:text="@string/button_start"
+        android:textColor="@color/aho_background_white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.87" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="126dp"
+        android:radius="8dp"
+        android:text="@string/avtorisov_entrance"
+        android:textAlignment="center"
+        android:textColor="@color/aho_background_white"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edPasswordRegister"
+        android:layout_width="344dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="324dp"
+        android:background="@color/entrance_string"
+        android:ems="10"
+        android:hint="@string/password_entrance"
+        android:inputType="textPassword"
+        android:paddingLeft="22sp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edLoginRegister"
+        android:layout_width="344dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="244dp"
+        android:background="@color/entrance_string"
+        android:ems="10"
+        android:hint="@string/login_entrance"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="22sp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

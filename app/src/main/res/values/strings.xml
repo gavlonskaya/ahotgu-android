@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">АХО ТГУ</string>
+    <string name="app_name_photo"> Сделать фото</string>
+    <string name="app_name_address"> Укажите адрес</string>
+    <string name="app_name_category">  Выберите категорию</string>
+    <string name="app_name_description_problem"> Опишите проблему</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="main_text_size">Размер шрифта</string>
+
+    <string name="menu_problems">Сообщить о проблеме</string>
+    <string name="menu_requests">Мои обращения</string>
+    <string name="menu_exit">Выход</string>
+
+
+
+    <string name="problem"> СООБЩИТЬ О ПРОБЛЕМЕ  /</string>
+    <string name="problem_photo"> СДЕЛАТЬ ФОТО</string>
+    <string name="problem_category"> ВЫБЕРИТЕ КАТЕГОРИЮ</string>
+    <string name="problem_category_topics"> ВЫБЕРИТЕ ТЕМУ КАТЕГОРИИ</string>
+    <string name="problem_address"> ВЫБЕРИТЕ АДРЕС</string>
+    <string name="problem_letter"> ОПИШИТЕ ПРОБЛЕМУ</string>
+    <string name="problem_my"> МОИ ОБРАЩЕНИЯ</string>
+
+
+    <string name="button_start">Войти</string>
+    <string name="report_problem">Сообщить о проблеме</string>
+
+    <string name="login_entrance">Логин</string>
+    <string name="password_entrance">Пароль</string>
+    <string name="avtorisov_entrance">Авторизация</string>
+    <string name="register_log_in">Зарегестрироваться</string>
+    <string name="name_log_in">Имя</string>
+    <string name="surname_log_in">Фамилия</string>
+    <string name="log_in">Регистрация</string>
+
+    <string name="submit_address_problem">Укажите адрес</string>
+    <string name="frame_address_problem">Корпус:</string>
+    <string name="floor_address_problem">Этаж:</string>
+    <string name="audience_address_problem">Аудитория:</string>
+
+
+    <string name="submit_request_letter_problem">Подать запрос</string>
+    <string name="description_letter_problem">Описание проблемы</string>
+    <string name="description_problem_letter_problem">Опишите проблему</string>
+
+
+    <string name="next_photo_problem">Далее</string>
+    <string name="gallery_photo_problem">Загрузить из галереи</string>
+    <string name="camera_photo_problem">Сделать фото</string>
+    <string name="report_photo_problem">Сообщить о проблеме</string>
+
+    <string name="my_problems">Мои обращения</string>
+    <string name="exit_my_problems">Назад</string>
+    <string name="all_my_problems">Все</string>
+    <string name="open_my_problems">Открытые</string>
+    <string name="close_my_problems">Закрытые</string>
+
+    <string name="exit">Выйти</string>
+    <string name="yes_exit">Да</string>
+    <string name="no_exit">Нет</string>
+
+
+    <string name="select_category_problem">Выберите категорию</string>
+    <string name="select_category_topic_problem">Выберите тему категории</string>
+
+</resources>

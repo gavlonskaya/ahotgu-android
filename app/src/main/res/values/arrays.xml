@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="problems_window">
+        <item>Окно разбито</item>
+        <item>Окно не закрывается</item>
+        <item>Грязное окно</item>
+        <item>Другое</item>
+    </string-array>
+
+    <string-array name="problems_lamp_and_switch">
+        <item>Неисправное освещение в коридорах и аудиториях</item>
+        <item>Сломан выключатель</item>
+        <item>Нет освещения в кабине лифта</item>
+        <item>Другое</item>
+    </string-array>
+
+    <string-array name="problems_plumbing_and_water">
+        <item>Не работает смеситель</item>
+        <item>Подтекает вода из крана</item>
+        <item>Отсутвие горячей или холодной воды</item>
+        <item>Другое</item>
+    </string-array>
+
+    <string-array name="problems_elevator">
+        <item>Не работает лифт</item>
+        <item>Лифт застрял на этаже</item>
+        <item>Двери лифта не закрываются</item>
+        <item>Не работает освещение в кабине лифта</item>
+        <item>Не работают кнопки в кабине лифта</item>
+        <item>Другое</item>
+    </string-array>
+
+    <string-array name="problems_door_wall_furniture">
+        <item>Не работает дверной замок</item>
+        <item>Дверь не закрывается</item>
+        <item>Дверь скрипит</item>
+        <item>Стены испачканы или исписаны</item>
+        <item>Сломаны ножки или спинки стульев</item>
+        <item>Деформация сиденья стула</item>
+        <item>Деформация рабочей поверхности стола</item>
+        <item>Поломка механизма офисной мебели</item>
+        <item>Другое</item>
+    </string-array>
+
+    <string-array name="problems_heating">
+        <item>Понижение температуры в помещении</item>
+        <item>Подтекают отопительные приборы</item>
+        <item>Другое</item>
+    </string-array>
+
+    <string-array name="problems_territory">
+        <item>Неисправное освещение</item>
+        <item>Ямы, выбоины</item>
+        <item>Реклама на тротуаре</item>
+        <item>Мусор</item>
+        <item>Отсутствие или поломка урны</item>
+        <item>Нескошенная трава</item>
+        <item>Некачественный уход за деревьями и кустарниками</item>
+        <item>Неубранный снег, гололёд</item>
+        <item>Снег, сосульки на крыше зданий</item>
+        <item>Сломанные лавочки или их отсутствие</item>
+        <item>Другое</item>
+    </string-array>
+
+    <string-array name="main_text_size_array">
+        <item>Большой</item>
+        <item>Средний</item>
+        <item>Маленький</item>
+    </string-array>
+
+</resources>

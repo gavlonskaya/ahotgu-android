@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "913288344024",
+    "project_id": "aho-new",
+    "storage_bucket": "aho-new.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913288344024:android:b627d978ac425ceeea82ad",
+        "android_client_info": {
+          "package_name": "com.example.less4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913288344024-kut2v51nia3jr1vjvh7ithdofjteme8t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyQBVeRApiTQZ-ApaMlRC4Sv8nkeJKHys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913288344024-kut2v51nia3jr1vjvh7ithdofjteme8t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

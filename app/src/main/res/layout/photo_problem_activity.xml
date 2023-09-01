@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/photo_problem_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/aho_background_white">
+
+    <Button
+        android:id="@+id/openCamera"
+        android:layout_width="332dp"
+        android:layout_height="48dp"
+        android:background="@color/aho_button_white"
+        android:bottomLeftRadius="50dp"
+        android:onClick="onClickPhoto"
+        android:text="@string/camera_photo_problem"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/aho_button_white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.591" />
+
+    <Button
+        android:layout_width="332dp"
+        android:layout_height="48dp"
+        android:background="@color/aho_button_white"
+        android:bottomLeftRadius="50dp"
+        android:onClick="onClickGalleryProblemAcivity"
+        android:text="@string/gallery_photo_problem"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.695" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="344dp"
+        android:layout_height="54dp"
+        android:background="@color/aho_button_white"
+        android:onClick="onClickNext"
+        android:text="@string/next_photo_problem"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.87" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="348dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="128dp"
+        android:text="@string/camera_photo_problem"
+        android:textAlignment="textStart"
+        android:textColor="@color/aho_background"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.365"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontal_scroll"
+        android:layout_width="425dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imImage"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="30dp"
+                app:srcCompat="@drawable/image_problem" />
+
+            <ImageView
+                android:id="@+id/imImage2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="30dp"
+                app:srcCompat="@drawable/image_problem" />
+
+            <ImageView
+                android:id="@+id/imImage3"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="30dp"
+                app:srcCompat="@drawable/image_problem" />
+
+            <ImageView
+                android:id="@+id/imImage4"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/image_problem" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:text="@string/problem"
+        android:textColor="@color/aho_background"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:text="@string/problem_photo"
+        android:textColor="@color/aho_background"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
